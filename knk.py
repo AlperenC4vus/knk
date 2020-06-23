@@ -3,7 +3,21 @@
 from time import sleep
 from random import random
 from threading import Thread as a
+
+
+print("""\033[1;31m
+███╗░░██╗██╗░░░██╗██████╗░██╗░░██╗░█████╗░███╗░░██╗
+████╗░██║██║░░░██║██╔══██╗██║░░██║██╔══██╗████╗░██║
+██╔██╗██║██║░░░██║██████╔╝███████║███████║██╔██╗██║
+██║╚████║██║░░░██║██╔══██╗██╔══██║██╔══██║██║╚████║
+██║░╚███║╚██████╔╝██║░░██║██║░░██║██║░░██║██║░╚███║
+╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝""")
+
+
+
+
 liste = ["Love you", "LOve you", "LoVe you", "LovE you", "Love You", "Love yOu", "Love yoU"]
+
 
 
 
@@ -39,9 +53,12 @@ while t.is_alive:
 
            with open(f"Cidden beni sevmiyormusun{random()}.txttl", "a+") as f:
                   f.write("ÜZÜLDÜM")
+               
+               while 1:
+                    print("\033[1;31mNedeeeeeeeeeeeeeeeeeeen")
     
     elif soru.lower() == "evet" or soru.lower() == "e":
-          print("Duyduğuma sevindim")
+          print("Duyduğuma sevindim ")
           break
     else:
          
