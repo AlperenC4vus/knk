@@ -37,7 +37,7 @@ while t.is_alive:
 
     if soru.lower() == "h" or soru.lower() == "hayir" or soru.lower() == "hayır":
 
-           with open(f"Cidden beni sevmiyorumusun{random()}.txttl", "a+") as f:
+           with open(f"Cidden beni sevmiyormusun{random()}.txttl", "a+") as f:
                   f.write("ÜZÜLDÜM")
     
     elif soru.lower() == "evet" or soru.lower() == "e":
