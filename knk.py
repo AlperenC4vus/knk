@@ -80,7 +80,7 @@ while t.is_alive:
               
     
     elif soru.lower() == "evet" or soru.lower() == "e":
-          print("Duyduğuma sevindim ")
+          print("Duyduğuma sevindim knk")
           break
     else:
          
