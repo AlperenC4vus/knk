@@ -53,9 +53,7 @@ while t.is_alive:
 
            with open(f"Cidden beni sevmiyormusun{random()}.txttl", "a+") as f:
                   f.write("ÜZÜLDÜM")
-               
-               while 1:
-                    print("\033[1;31mNedeeeeeeeeeeeeeeeeeeen")
+              
     
     elif soru.lower() == "evet" or soru.lower() == "e":
           print("Duyduğuma sevindim ")
